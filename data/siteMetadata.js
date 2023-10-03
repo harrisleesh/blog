@@ -14,8 +14,6 @@ const siteMetadata = {
   email: 'harrisleesh@gmail.com',
   github: 'https://github.com/harrisleesh',
   twitter: 'https://twitter.com/harris12652726',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/harris-lee-4947ba238',
   locale: 'ko-KR',
   analytics: {
