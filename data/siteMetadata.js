@@ -1,12 +1,12 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Harris Blog',
+  title: '주간 이성훈',
   author: 'Seonghun Lee',
-  headerTitle: 'Harris Blog',
+  headerTitle: '주간 이성훈',
   description: 'Welcome to the Harris Blog',
   language: 'ko-kr',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog-rho-orpin-92.vercel.app',
+  siteUrl: 'https://seonghunlee.com',
   siteRepo: 'https://github.com/harrisleesh/blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
