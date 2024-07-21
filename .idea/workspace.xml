@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="delete all">
-      <change afterPath="$PROJECT_DIR$/src/posts/category2/title1/content.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="renew blog second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mdx/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mdx/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_detail/PostHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_detail/PostHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_detail/TableOfContentSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentSidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_detail/TableOfContentTop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentTop.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post_list/PostListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_list/PostListPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/category1/title1/content.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/category1/title1/content.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,15 +103,35 @@
       <option name="project" value="LOCAL" />
       <updated>1721398766489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="renew blog second commit">
+      <option name="closed" value="true" />
+      <created>1721544054543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721544054543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="delete all" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete all" />
+    <MESSAGE value="renew blog second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="renew blog second commit" />
   </component>
 </project>

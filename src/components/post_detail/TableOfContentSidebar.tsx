@@ -29,7 +29,7 @@ const TableOfContent = ({ toc }: Props) => {
                   key={item.link}
                   className={cn(
                     isH3 && 'ml-4',
-                    isIntersecting && 'font-medium text-pink-600',
+                    isIntersecting && 'font-medium text-cyan-600',
                     'py-1 transition'
                   )}
                 >
