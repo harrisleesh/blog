@@ -31,30 +31,28 @@ const ThemeSwitch = () => {
     return null;
   }
 
-  const Item = ({ t, Icon, label }: DropdownItemProps) => (
-    <DropdownMenuItem onClick={() => setTheme(t)} className='justify-between'>
-      <div className='flex items-center gap-2'>
-        <Icon width={14} /> {label}
-      </div>
-      {theme === t && <Dot />}
-    </DropdownMenuItem>
-  );
+  const ThemeToggleButton = () => {
+    const [themeString, setThemeString] = useState('light'); // 초기 테마를 'light'로 설정합니다.
+
+    const toggleTheme = () => {
+      setThemeString((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+      setTheme(themeString)
+    };
+
+    return (
+        <button onClick={toggleTheme} className='button-class'>
+          {theme === 'light' ? (
+              <Sun className='h-[1.2rem] w-[1.2rem]' />
+          ) : (
+              <Moon className='h-[1.2rem] w-[1.2rem]' />
+          )}
+          <span className='sr-only'>Toggle theme</span>
+        </button>
+    );
+  };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant='ghost' size='icon'>
-          <Sun className='h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0' />
-          <Moon className='absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100' />
-          <span className='sr-only'>Toggle theme</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align='end'>
-        <Item t='light' label='Light' Icon={Sun} />
-        <Item t='dark' label='Dark' Icon={Moon} />
-        <Item t='system' label='System' Icon={Monitor} />
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <ThemeToggleButton></ThemeToggleButton>
   );
 };
 

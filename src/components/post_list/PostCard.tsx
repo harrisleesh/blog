@@ -11,9 +11,8 @@ interface Props {
 const PostCard = ({ post }: Props) => {
   return (
     <Link href={post.url}>
-      <li className='flex h-full flex-col gap-3 overflow-hidden rounded-md border shadow-md transition hover:shadow-xl dark:border-slate-700 dark:hover:border-white'>
-
-        <div className='flex flex-1 flex-col justify-between p-4 pt-1'>
+      <li className='flex h-full flex-row gap-3 overflow-hidden rounded-md border shadow-md transition hover:shadow-xl dark:border-slate-700 dark:hover:border-white'>
+        <div className='flex flex-1 flex-col justify-between p-4'>
           <div>
             <div className='text-sm font-medium text-pink-600 lg:text-base'>
               {post.categoryPublicName}
@@ -22,14 +21,26 @@ const PostCard = ({ post }: Props) => {
           </div>
           <div className='flex justify-between gap-3 text-sm text-gray-500 dark:text-gray-400'>
             <div className='flex items-center gap-1'>
-              <CalendarDays className='w-3.5' />
+              <CalendarDays className='w-3.5'/>
               <span>{post.dateString}</span>
             </div>
             <div className='flex items-center gap-1'>
-              <Clock3 className='w-3.5' />
+              <Clock3 className='w-3.5'/>
               <span>{post.readingMinutes}분</span>
             </div>
           </div>
+        </div>
+        <div className='relative w-1/3 aspect-video rounded-r-md border-l'>
+          <Image
+              src={post.thumbnail}
+              alt={`thumbnail for ${post.title}`}
+              sizes='(max-width: 1000px) 50vw, 450px'
+              fill
+              priority
+              style={{
+                objectFit: 'cover',
+              }}
+          />
         </div>
       </li>
     </Link>

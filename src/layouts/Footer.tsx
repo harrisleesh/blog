@@ -25,11 +25,11 @@ export const Footer = () => {
       <a href='https://hits.sh/www.seonghunlee.com/blog/'>
         <img
           alt='Hits'
-          src='https://hits.sh/www.seonghunlee.com/blog.svg?view=today-total&style=for-the-badge&label=visitors&extraCount=1248&color=db2777&labelColor=db2777'
+          src='https://hits.sh/www.seonghunlee.com/blog.svg?view=today-total&style=for-the-badge&label=visitors&color=7a583a&labelColor=7a583a'
         />
       </a>
       <div>
-        © 2024. <span className='font-semibold'>seonghun lee</span> all rights reserved.
+        © 2024. <span className='font-semibold'>seonghun lee</span>
       </div>
     </footer>
   );

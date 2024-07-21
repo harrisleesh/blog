@@ -13,14 +13,13 @@ const PostListPage = async ({ category }: PostListProps) => {
 
   return (
     <section className='mx-auto mt-12 w-full max-w-[950px] px-4'>
-        <h1>아니왜</h1>
       <CategoryList
         allPostCount={allPostCount}
         categoryList={categoryList}
         currentCategory={category}
       />
       <section>
-        <ul className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12'>
+        <ul className='grid grid-cols-1 gap-8 md:grid-cols-1 lg:gap-12'>
           {postList.map((post) => (
             <PostCard key={post.url + post.date} post={post} />
           ))}

@@ -5,59 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="delete all">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/weekly_harris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/blog/(main)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/blog/[category]/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/blog/[category]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sitemap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/CopyLinkButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FloatingButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/ScrollProgressBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/TocButtons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon/Github.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon/LinkedIn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mdx/Callout/Icons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mdx/Callout/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mdx/Image.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mdx/Link.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mdx/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_detail/Giscus.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_detail/PostBody.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_detail/PostHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentSidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentTop.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_list/CategoryButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_list/CategoryList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post_list/PostListPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/dropdown-menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/toast.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/toaster.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/use-toast.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/const.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useHeadingsObserver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useOutsideClick.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useSpy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useWatchTimeout.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/theme/Provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/category1/title1/content.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/category2/title1/content.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_list/PostListPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_list/PostListPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +50,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/harris/pg/blog/src/app",
+    "last_opened_file_path": "/Users/harris/pg/blog/src/posts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/layouts" />
-      <recent name="$PROJECT_DIR$/src/hook" />
     </key>
   </component>
   <component name="SharedIndexes">

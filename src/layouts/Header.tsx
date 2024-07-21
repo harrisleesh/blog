@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils';
 import { Github } from 'lucide-react';
 
 const navList = [
-  { name: 'Harris', href: '/blog' },
+  { name: '주간 이성훈', href: '/blog' },
   { name: 'About', href: '/about' },
 ];
 
@@ -44,11 +44,6 @@ export const Header = () => {
         </div>
         <div className='flex gap-3'>
           <ThemeSwitch />
-          <Button asChild variant='ghost' size='icon'>
-            <Link href='https://github.com/harrisleesh' target='_blank'>
-              <Github className='size-[1.2rem]' />
-            </Link>
-          </Button>
         </div>
       </div>
       <ScrollProgressBar />
