@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="delete all">
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/weekly_harris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/blog/(main)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/blog/[category]/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/blog/[category]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/sitemap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/CopyLinkButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FloatingButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/ScrollProgressBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/TocButtons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icon/Github.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icon/LinkedIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mdx/Callout/Icons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mdx/Callout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mdx/Image.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mdx/Link.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mdx/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_detail/Giscus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_detail/PostBody.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_detail/PostHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentTop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_list/CategoryButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_list/CategoryList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post_list/PostListPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/toast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/toaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/use-toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/useHeadingsObserver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/useOutsideClick.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/useSpy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hook/useWatchTimeout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/theme/Provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/category1/title1/content.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2jT6EhsgXM1ERbGQ58Z9j7F8mjT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/harris/pg/blog/src/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/harris/pg/blog/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
+      <recent name="$PROJECT_DIR$/src/hook" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="" />
+      <created>1721398610000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721398610000</updated>
+      <workItem from="1721398610977" duration="621000" />
+      <workItem from="1721399414172" duration="11566000" />
+    </task>
+    <task id="LOCAL-00001" summary="delete all">
+      <option name="closed" value="true" />
+      <created>1721398716718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721398716718</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete all">
+      <option name="closed" value="true" />
+      <created>1721398766489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721398766489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="delete all" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete all" />
+  </component>
+</project>
