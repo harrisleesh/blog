@@ -41,7 +41,6 @@ const TableOfContent = ({ toc }: Props) => {
         </div>
         <div className='flex gap-2'>
           <ScrollTop />
-          <ScrollToComment />
           <CopyLinkButton />
         </div>
       </div>

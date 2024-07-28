@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 
 import FloatingButton from '@/components/common/FloatingButton';
-import Giscus from '@/components/post_detail/Giscus';
 import { PostBody } from '@/components/post_detail/PostBody';
 import { PostHeader } from '@/components/post_detail/PostHeader';
 import TocSidebar from '@/components/post_detail/TableOfContentSidebar';
@@ -19,7 +18,7 @@ export const dynamicParams = false;
 export async function generateMetadata({ params: { category, slug } }: Props): Promise<Metadata> {
   const post = await getPostDetail(category, slug);
 
-  const title = `${post.title} | D5BL5G`;
+  const title = `${post.title}`;
   const imageURL = `${baseDomain}${post.thumbnail}`;
 
   return {
@@ -54,7 +53,7 @@ const PostDetail = async ({ params: { category, slug } }: Props) => {
   const post = await getPostDetail(category, slug);
   const toc = parseToc(post.content);
   return (
-    <div className='prose mx-auto w-full max-w-[750px] px-5 dark:prose-invert sm:px-6'>
+    <div className='prose mx-auto w-full max-w-[950px] px-5 dark:prose-invert sm:px-6'>
       <PostHeader post={post} />
       <TocTop toc={toc} />
       <article className='relative'>
@@ -62,7 +61,6 @@ const PostDetail = async ({ params: { category, slug } }: Props) => {
         <PostBody post={post} />
       </article>
       <hr />
-      <Giscus />
       <FloatingButton />
     </div>
   );

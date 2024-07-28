@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="renew blog second commit">
+    <list default="true" id="e1c39951-b409-415e-ac3d-0e5b45d00248" name="Changes" comment="renew blog third commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mdx/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mdx/Link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post_detail/PostHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_detail/PostHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/[category]/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog/[category]/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FloatingButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FloatingButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/TocButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/TocButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_detail/Giscus.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/post_detail/TableOfContentSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentSidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post_detail/TableOfContentTop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_detail/TableOfContentTop.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post_list/PostCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/theme/Switch.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/category1/title1/content.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/category1/title1/content.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/harris/pg/blog/src/posts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/harris/pg/blog/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/harris/pg/blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/harris/pg/blog/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/posts" />
       <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/layouts" />
     </key>
@@ -86,6 +86,8 @@
       <updated>1721398610000</updated>
       <workItem from="1721398610977" duration="621000" />
       <workItem from="1721399414172" duration="11566000" />
+      <workItem from="1721654730878" duration="15000" />
+      <workItem from="1722149319946" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="delete all">
       <option name="closed" value="true" />
@@ -111,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721544054543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="renew blog third commit">
+      <option name="closed" value="true" />
+      <created>1721570393063</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721570393063</updated>
+    </task>
+    <task id="LOCAL-00005" summary="renew blog third commit">
+      <option name="closed" value="true" />
+      <created>1721570398427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721570398427</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +150,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="delete all" />
     <MESSAGE value="renew blog second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="renew blog second commit" />
+    <MESSAGE value="renew blog third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="renew blog third commit" />
   </component>
 </project>

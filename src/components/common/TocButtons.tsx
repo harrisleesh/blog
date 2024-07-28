@@ -18,12 +18,3 @@ export const ScrollTop = ({ size = 16, className }: ButtonProps) => {
     </Button>
   );
 };
-
-export const ScrollToComment = ({ size = 16, className }: ButtonProps) => {
-  const scrollToGiscus = () => document.querySelector('.giscus')?.scrollIntoView();
-  return (
-    <Button variant='outline' size='icon' onClick={scrollToGiscus} className={className}>
-      <MessageSquareText size={size} />
-    </Button>
-  );
-};
