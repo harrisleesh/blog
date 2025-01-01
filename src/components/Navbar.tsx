@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import ThemeToggle from '@/components/ThemeToggle'
 
 const navigation = [
   { name: '소개', href: '/about' },

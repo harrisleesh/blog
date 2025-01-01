@@ -5,26 +5,21 @@ import PostNavigation from '@/components/PostNavigation'
 import SEO from '@/components/SEO'
 import Link from 'next/link'
 
-interface PostPageProps {
-  params: {
-    slug: string
-  }
-}
-
 export async function generateStaticParams() {
   const posts = await getAllPostIds()
   return posts
 }
 
-export default async function PostPage({ params }: PostPageProps) {
-  const post = await getPostData(params.slug)
+export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const post = await getPostData(slug)
 
   return (
     <>
-      <SEO
+      <SEO  
         title={post.title}
         description={post.excerpt}
-        url={`/posts/${params.slug}`}
+        url={`/posts/${slug}`}
         type="article"
       />
       <div className="relative max-w-prose mx-auto">
@@ -62,7 +57,7 @@ export default async function PostPage({ params }: PostPageProps) {
           </div>
         </aside>
 
-        <PostNavigation currentSlug={params.slug} />
+        <PostNavigation currentSlug={slug} />
       </div>
     </>
   )

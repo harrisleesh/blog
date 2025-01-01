@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs'
 import RSS from 'rss'
-import { getSortedPostsData } from '@/lib/markdown'
-import { siteConfig } from '@/config/seo'
+import { getSortedPostsData } from '../lib/markdown.js'
+import { siteConfig } from '../config/seo.js'
 
 async function generateRssFeed() {
   const feed = new RSS({
