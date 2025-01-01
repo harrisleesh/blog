@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { PostData } from '@/lib/types'
 import Link from 'next/link'
+import SEO from '@/components/SEO'
 
 export default function Home() {
   const [tags, setTags] = useState<{ [key: string]: number }>({})
@@ -32,6 +33,12 @@ export default function Home() {
     : posts
 
   return (
+    <>
+      <SEO 
+        title="홈"
+        description="웹 개발과 프로그래밍에 대한 이야기를 공유하는 블로그입니다."
+        url="/"
+      />
     <div className="prose dark:prose-invert max-w-none">
       <div className="max-w-prose mx-auto">
         <section className="mb-6">
@@ -92,10 +99,11 @@ export default function Home() {
                   </div>
                 </article>
               </Link>
-            ))}
+            ))} 
           </div>
         </section>
       </div>
     </div>
+    </>
   )
 }
