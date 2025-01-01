@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'My Blog',
-  description: 'Welcome to my blog',
+  title: '🐳 Weekly Seonghun',
+  description: 'Weekly Seonghun Blog',
 }
 
 export default function RootLayout({

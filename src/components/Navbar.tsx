@@ -45,12 +45,10 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <ThemeToggle />
           </div>
 
           {/* 모바일 메뉴 버튼 */}
           <div className="sm:hidden flex items-center gap-2">
-            <ThemeToggle />
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white"

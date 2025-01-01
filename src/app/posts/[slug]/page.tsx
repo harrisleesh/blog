@@ -3,6 +3,7 @@ import MarkdownContent from '@/components/MarkdownContent'
 import TableOfContents from '@/components/TableOfContents'
 import PostNavigation from '@/components/PostNavigation'
 import SEO from '@/components/SEO'
+import Link from 'next/link'
 
 interface PostPageProps {
   params: {
@@ -27,28 +28,24 @@ export default async function PostPage({ params }: PostPageProps) {
         type="article"
       />
       <div className="relative max-w-prose mx-auto">
-        <article className="prose dark:prose-invert max-w-none">
+        <article className="prose max-w-none">
           <header className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
               {post.title}
             </h1>
-            <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-4 text-sm text-gray-600">
               <time>
-                {new Date(post.date).toLocaleDateString('ko-KR', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
+                {new Date(post.date).toLocaleDateString('ko-KR')}
               </time>
               <div className="flex gap-2">
                 {post.tags.map((tag) => (
-                  <a
+                  <Link
                     key={tag}
-                    href={`/tags/${tag}`}
-                    className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+                    href={`/?tag=${tag}`}
+                    className="text-gray-500 hover:text-gray-700 no-underline"
                   >
                     #{tag}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -60,7 +57,7 @@ export default async function PostPage({ params }: PostPageProps) {
         </article>
 
         <aside className="hidden lg:block fixed top-24 left-[calc(50%+24rem)] w-64">
-          <div className="pl-8 border-l border-gray-200 dark:border-gray-700">
+          <div className="pl-8 border-l border-gray-200">
             <TableOfContents content={post.content} />
           </div>
         </aside>
